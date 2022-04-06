@@ -14,6 +14,7 @@ export function About(props: any) {
             <Image
               alt=""
               className="img-responsive"
+              fluid
               src={props.data ? props.data.img : 'default'}
             />
 
@@ -109,6 +110,7 @@ export function About(props: any) {
             <Image
               alt=""
               className="img-responsive"
+              fluid
               src={props.data ? props.data.img2 : 'default'}
             />
 

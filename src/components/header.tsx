@@ -2,11 +2,12 @@ import { Col, Container, Image, Row } from 'react-bootstrap'
 
 export function Header() {
   return (
+
     <header id="header">
       <div className="intro">
         <div className="overlay">
-          <Container>
-            <Row>
+          <Container fluid >
+            <Row >
               <Col
                 className="intro-text"
                 md={{
@@ -14,13 +15,21 @@ export function Header() {
                   span: 8
 
                 }}
+                sm={12}
+                xs={{
+                  span: 12
+                }}
+
+
               >
 
                 <Image
-                  alt="logo digitec" fluid
+                  alt="logo digitec"
+                  fluid
                   height={300}
                   src="img/logo-digitec.png"
                   width={300}
+
                 />
 
                 {/*
@@ -30,9 +39,9 @@ export function Header() {
                   <span />
               </h1>*/}
 
-                <p>
+                <p >
                   Atuamos com prestação de serviços de assistência, gestão de segurança e saúde no trabalho.
-                </p>
+                </p >
 
                 <a
                   className="btn btn-custom btn-lg page-scroll"
@@ -42,11 +51,12 @@ export function Header() {
                 </a>
 
                 {' '}
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </div>
-    </header>
+              </Col >
+            </Row >
+          </Container >
+        </div >
+      </div >
+    </header >
   )
+
 }

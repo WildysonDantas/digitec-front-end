@@ -244,6 +244,13 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+#header{
+ margin-left: 0% !important;
+ 
+}
+
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -608,6 +615,32 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+
+
+@media (min-width: 900px) {
+
+ 
+  
+  [id*="header"] {
+     margin-right: -0%; 
+   }
+   
+ }
+
+ @media (min-width: 896px) {
+
+ 
+  
+  [id*="header"] {
+     margin-right: -0%; 
+   }
+   
+ }
+
+ 
+ 
+ 
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
@@ -620,9 +653,30 @@ label {
   [id*="menu"] {
     padding: 2% !important;
   }
-
+ 
+  
+  [id*="header"] {
+    margin-right: -11%; 
+  }
   
 }
+
+.header2{
+  margin-top: 5%;
+  padding-bottom: 70%;
+  background-color: #1e7a46;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+  display: table;
+  width: 100%;
+
+}
+
+
+
+
+
+
+
 
 
 .justify{

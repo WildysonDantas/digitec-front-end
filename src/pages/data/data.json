@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "DIGITEC",
+    "title": "DIGTEC",
     "paragraph": ""
   },
   "About": {
@@ -67,6 +67,66 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
+
+  "ServicesPage": {
+    "items1": [
+      "Desenvolvimento do PGR",
+      "Desenvolvimento de LTCAT",
+      "Desenvolvimento do PCMSO",
+      "Visita de Diagnóstico Técnico",
+      "Sistema WEB (100% Online)",
+      "1 Usuários (Acesso Master)",
+      "2 Usuários (SESMT Pleno)",
+      "Emissão dos Arquivos .xml",
+      "Conformidade Total com eSocial",
+      "Convocação de Exames",
+      "Encaminhamento de Exames",
+      "Emissão de ASO (Indicamos nosso parceiro)",
+      "Emissão de OSF",
+      "Emissão de PPP",
+      "Controle de Vencimentos de Exames",
+      "Gestão do Cronograma de Ações",
+      "Emissão de Relatórios e Indicadores",
+      "Registro de Acidentes e Ocorrências",   
+      "Registro de Incidentes (NR 01)",
+      "Gestão de EPI’s",
+      "Criar e Gerenciar Check List",
+      "Gestão da CIPA."
+    ]
+  },
+  "Planos": [
+    {
+      "funcionarios": "1-5",
+      "adesaoValor": "600,00",
+      "mensalidadeValor": "200,00"
+      
+    },
+    {
+      "funcionarios": "6-10",
+      "adesaoValor": "750,00",
+      "mensalidadeValor": "250,00"
+      
+    },
+    {
+      "funcionarios": "11-15",
+      "adesaoValor": "900,00",
+      "mensalidadeValor": "300,00"
+      
+    },
+    {
+      "funcionarios": "15-20",
+      "adesaoValor": "1.000,00",
+      "mensalidadeValor": "350,00"
+      
+    },
+    {
+      "funcionarios": "20 ou mais",
+      "adesaoValor": "1.200,00",
+      "mensalidadeValor": "400,00"
+      
+    }
+
+  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -98,6 +158,8 @@
       "name": "Consectetur adipiscing",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
+
+    
   ],
   "Testimonials": [
     {
@@ -205,4 +267,6 @@
     "title": "Digitec"
     
   }
+
+  
 }

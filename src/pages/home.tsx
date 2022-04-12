@@ -31,7 +31,7 @@ const home: NextPage = () => {
     <div id="root">
       <Head>
         <title>
-          Digitec
+          Digtec
         </title>
 
         <meta

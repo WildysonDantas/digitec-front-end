@@ -1,4 +1,6 @@
 import { Container, Image, Nav, Navbar } from 'react-bootstrap'
+import Link from 'next/link'
+
 
 export function Navigation(props: any) {
   return (
@@ -12,20 +14,22 @@ export function Navigation(props: any) {
       variant="dark"
     >
       <Container>
-        <Navbar.Brand
-          className="page-scroll text-white"
-          href="#home"
-        >
+        <Link href="/" passHref>
+          <Navbar.Brand
+            className="page-scroll text-white"
 
-          <Image
-            alt="logo digitec" fluid
-            height={30}
-            src="img/logo-digitec.png"
-            width={30}
-          />
+          >
 
-          {props.data ? props.data.title : 'DIGITEC'}
-        </Navbar.Brand>
+            <Image
+              alt="logo digitec" fluid
+              height={30}
+              src="img/logo-digitec.png"
+              width={30}
+            />
+
+            {props.data ? props.data.title : 'DIGITEC'}
+          </Navbar.Brand>
+        </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -33,17 +37,37 @@ export function Navigation(props: any) {
           <Nav className="me-auto" />
 
           <Nav>
-            <Nav.Link href="#">
-              Home
-            </Nav.Link>
+            <Link href="/">
+              <a className="nav-link">
+                {' '}
+                Home
+              </a>
+
+            </Link>
 
             <Nav.Link href="#about" >
               Quem Somos
             </Nav.Link>
 
-            <Nav.Link href="#features">
-              Serviços
-            </Nav.Link>
+
+            <Link
+              href="/servicos"
+            >
+              <a className="nav-link">
+                {' '}
+                Serviços
+              </a>
+
+            </Link>
+
+            <Link href="/plano" >
+              <a className="nav-link">
+                {' '}
+                Planos
+              </a>
+
+            </Link>
+
 
             <Nav.Link
               href="#contact"
@@ -54,7 +78,7 @@ export function Navigation(props: any) {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar >
 
   )
 }

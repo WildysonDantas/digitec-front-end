@@ -53,7 +53,7 @@ a:focus {
 }
 ul,
 ol {
-  list-style: none;
+  /*list-style: none;*/
 }
 ul,
 ol {

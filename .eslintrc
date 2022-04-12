@@ -73,7 +73,7 @@
     //"react/prop-types": 0,
    
     "space-before-function-paren": "off",
-    "react/jsx-max-props-per-line": [1, { "maximum": 2 }],
+    "react/jsx-max-props-per-line": [1, { "maximum": 3 }],
     "react/prop-types": "off",
     "react/jsx-indent": 0,
     "react/jsx-indent-props": [2,  { "indentMode": 2, "ignoreTernaryOperator": true}],
@@ -83,6 +83,7 @@
     "react/jsx-one-expression-per-line": 1,
     "react/jsx-max-depth": 0,
     "react/jsx-newline": 1,
+    //"react/jsx-ident-props": [2, 2],
     "react/jsx-props-no-spreading": 0,
     "react/jsx-closing-tag-location": 0,
     "react/forbid-component-props": "off",
